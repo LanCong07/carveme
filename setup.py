@@ -9,7 +9,7 @@ with open('README.rst') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    "reframed>=1.5.3",
+    "reframed>=1.5.4",
     "pandas>=1.0",
 ]
 
@@ -74,7 +74,7 @@ included_files = {
 
 setup(
     name='carveme',
-    version='1.6.2',
+    version='1.6.3',
     description="CarveMe: automated metabolic model reconstruction",
     long_description=readme,
     author="Daniel Machado",
@@ -103,12 +103,12 @@ setup(
         'Environment :: Console', 
         'Intended Audience :: Science/Research',
         'Topic :: Scientific/Engineering :: Bio-Informatics',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
         'License :: OSI Approved :: Apache Software License',
     ],
     setup_requires=['setuptools_scm']

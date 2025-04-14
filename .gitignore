@@ -12,3 +12,4 @@ Dockerfile
 carveme/universe/download bigg fasta.ipynb
 carveme/data/generated/bigg_proteins.dmnd
 venv/*
+carveme/data/benchmark/fasta/Ecoli_K12_MG1655.xml

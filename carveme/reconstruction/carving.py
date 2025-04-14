@@ -171,7 +171,7 @@ def minmax_reduction(model, scores, min_growth=0.1, min_atpm=0.1, eps=1e-3, bigM
         for r_id in model.reactions:
             if r_id.startswith('R_EX') and r_id not in soft_constraints:
                 objective['y_' + r_id] = uptake_score
-
+    
     solver.set_objective(objective, minimize=False)
 
     if debug_output:
